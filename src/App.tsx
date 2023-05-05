@@ -1,19 +1,19 @@
-import { useState } from 'react'
+
  import reactLogo from './assets/react.svg'
  import viteLogo from '/vite.svg'
 import './App.css'
-import { Assortment } from './sections/assortment';
-import { Search } from './sections/search';
+import Decstop from './components/decstop/decstop'
+
+
+
 
 
 function App() {
   return (
-   
-    <div className='App'>
-       <Search/>
-      <Assortment/>
-    </div>
-  );
+     <Decstop/>
+    
+  )
+
   
     
      
